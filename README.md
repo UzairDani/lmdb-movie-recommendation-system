@@ -1,9 +1,7 @@
-# lmdb-movie-recommendation-system
-
-Movie Recommendation System
+**Movie Recommendation System**
 This project implements two types of movie recommendation systems using the MovieLens dataset: Content-Based Filtering and Collaborative Filtering (User-Based).
 
-Features
+**Features**
 Content-Based Filtering
 
 Recommends movies based on genre similarity
@@ -20,7 +18,7 @@ Uses Pearson Correlation to find users with similar taste
 
 Generates recommendations by weighting ratings from similar users
 
-Dependencies
+**Dependencies**
 Python 3.x
 
 Pandas
@@ -30,10 +28,10 @@ NumPy
 Matplotlib
 
 Install requirements with:
-
 bash
 pip install pandas numpy matplotlib
-Dataset
+
+**Dataset**
 The system uses the MovieLens dataset with two files:
 
 movies.csv - Contains movie information
@@ -67,26 +65,6 @@ Calculates weighted recommendations based on similar users' ratings
 
 Recommends highest-rated movies from similar users
 
-Usage Example
-python
-# User input for Content-Based Filtering
-userInput = [
-    {'title':'Breakfast Club, The', 'rating':5},
-    {'title':'Toy Story', 'rating':3.5},
-    {'title':'Jumanji', 'rating':2},
-    {'title':"Pulp Fiction", 'rating':5},
-    {'title':'Akira', 'rating':4.5}
-]
-
-# User input for Collaborative Filtering
-userInput = [
-    {'title':'Breakfast Club, The', 'rating':5},
-    {'title':'Toy Story', 'rating':3.5},
-    {'title':'Jumanji', 'rating':2},
-    {'title':"Pulp Fiction", 'rating':5},
-    {'title':'Akira', 'rating':4.5}
-]
-File Structure
 imbd-movie-recommendation-system.ipynb: Jupyter notebook containing the complete implementation
 
 movies.csv: Movie metadata dataset
